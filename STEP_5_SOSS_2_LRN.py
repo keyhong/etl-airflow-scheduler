@@ -16,6 +16,7 @@ from airflow.operators.dummy_operator import DummyOperator
 from airflow.models import DAG
 from datetime import datetime, timedelta
 import pendulum
+
 # 로컬 타임존 생성
 local_tz = pendulum.timezone("Asia/Seoul")
 
